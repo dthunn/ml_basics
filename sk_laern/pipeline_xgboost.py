@@ -66,3 +66,5 @@ print("Best parameters:", random_search.best_params_)
 y_pred = random_search.predict(X_test)
 acc = accuracy_score(y_test, y_pred)
 print(f"Test Accuracy: {acc:.2f}")
+
+
